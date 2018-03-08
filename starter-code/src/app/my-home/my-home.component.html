@@ -1,0 +1,9 @@
+
+<div class="movie-container">
+    <div *ngFor="let film of films">
+        <h2>Room: {{film.room}}</h2>
+        <img [src]="film.poster" [alt]="film.poster">
+        <a href="/movie/{{film.id}}"><h2>{{film.title}}</h2></a>
+    </div>
+</div>
+

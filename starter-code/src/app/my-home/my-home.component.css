@@ -1,0 +1,22 @@
+h2 {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+}
+
+.movie-container{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+}
+
+.movie-container img {
+    width: 55%;
+}

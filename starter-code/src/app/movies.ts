@@ -1,4 +1,4 @@
-[
+const movies: Object[] = [
   {
     id: 1,
     title: "The Shawshank Redemption",
@@ -16,7 +16,9 @@
       "William Sadler",
       "Clancy Brown",
       "Gil Bellows"
-    ]
+    ],
+    hours: 2,
+    room: "A",
   }, {
     id: 2,
     title: "The Godfather",
@@ -34,11 +36,13 @@
       "Richard S. Castellano",
       "Robert Duvall",
       "Sterling Hayden"
-    ]
+    ],
+    hours: 2,
+    room: "B",
   }, {
     id: 3,
     title: "The Godfather Part II",
-    poster: "https://i.imgur.com/abJNkWI.jpg",
+    poster: "https://s-media-cache-ak0.pinimg.com/originals/a5/de/ab/a5deabc632f9f31fadfd30f725f0153f.jpg",
     synopsis: "The Godfather Part II presents two parallel storylines. One involves Mafia chief Michael Corleone in 1958/1959 after the events of the first movie; the othe...",
     genres: [
       "Crime", "Drama"
@@ -52,7 +56,9 @@
       "Robert De Niro",
       "John Cazale",
       "Talia Shire"
-    ]
+    ],
+    hours: 2,
+    room: "C",
   }, {
     id: 4,
     title: "The Dark Knight",
@@ -70,9 +76,10 @@
       "Michael Caine",
       "Maggie Gyllenhaal",
       "Gary Oldman"
-    ]
+    ],
+    hours: 2,
+    room: "D",
   }, {
-  {
     id: 5,
     title: "Schindler's List",
     poster: "https://i.imgur.com/IWZJOmu.jpg",
@@ -89,6 +96,10 @@
       "Caroline Goodall",
       "Jonathan Sagall",
       "Embeth Davidtz"
-    ]
+    ],
+    hours: 2,
+    room: "E",
   }
 ]
+
+export default movies;
