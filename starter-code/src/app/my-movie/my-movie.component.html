@@ -1,25 +1,25 @@
 
-<div id="mov">
-  <div id="title"><span class="room">Room: {{film[0].room}} </span><span class="title">{{film[0].title}}</span>
+<div >
+  <div ><span >Room: {{film[0].room}} </span><span class="title">{{film[0].title}}</span>
   </div>
   <img [src]="film[0].poster">
   <div class="info">
-      <div class="feature">
+      <div >
     <b>Genres</b>
     <ul>
       <li *ngFor="let genre of film[0].genres">
         {{genre}}
       </li>
     </ul></div>
-    <div class="feature">
+    <div >
     <b>Year </b>
     <span>{{film[0].year}}</span>
   </div>
-    <div class="feature">
+    <div >
     <b>Director </b>
     <span>{{film[0].director}}</span>
   </div>
-    <div class="feature">
+    <div >
     <b>Actors</b>
       <ul>
         <li *ngFor="let actor of film[0].actors">
@@ -27,7 +27,7 @@
         </li>
       </ul>
     </div>
-      <div class="feature">
+      <div >
       <b>Time</b>
       <span>{{film[0].hours}} hours</span>
       </div>
